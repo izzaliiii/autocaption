@@ -5,5 +5,8 @@
   model card and license before redistribution of weights.
 - faster-whisper and CTranslate2: BSD-3-Clause.
 - FFmpeg: external executable; see its own license/build configuration.
+- Optional person cutout: [rembg](https://github.com/danielgatis/rembg), MIT;
+  its U²-Net model weights have separate terms. Installed from
+  `requirements-effects.txt` only when the behind-subject feature is needed.
 
 The Urdu-to-Roman mapping in `romanizer.py` is newly written for this project.
